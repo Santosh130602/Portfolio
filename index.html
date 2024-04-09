@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio_Santosh</title>
+    <link rel="icon" type="image/x-icon" href="/image/santlogo.png">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('3uYfDf-gUvMMCNj63')
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+</head>
+
+<body data-spy="scroll" data-target="#navitems" data-offset="10">
+    <div id="wrapper">
+        <div class="container">
+            <div class="topnav">
+                <div class="sant-logo">
+                    <a href="./index.html" class="active logo">
+                        <img src="./image/santosh.png" alt="" width="px" height="40px" loading="lazy">
+
+                    </a>
+                </div>
+                <div id="myLinks">
+                    <a class="navho" href="/project.html" onclick="clickHandler()">Projects</a>
+                    <a class="navho" href="/about.html" onclick="clickHandler()">About</a>
+                    <a class="navho" href="/conect.html" onclick="clickHandler()">Contacts</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+
+            </div>
+
+
+            <nav>
+                <a href="./index.html" class=" navlogo">
+                    <img src="./image/santlogo.png" alt="" loading="lazy" class="sant-logo">
+                    <!-- Santosh -->
+
+                </a>
+                <ul>
+
+                    <li><a href="/project.html">Projects</a></li>
+                    <li><a href="/about.html">About</a></li>
+
+                    <li><a href="/conect.html">Contacts</a></li>
+                </ul>
+            </nav>
+
+            <div>
+
+                <section class="hero-section" id="home">
+
+                    <div class="heroleft" data-aos="fade-up">
+                        <div class="herosectionheading">Hi!</div>
+                        <div class="herosectionheading herosectionsub">
+                            I am a <span class="role"></span>
+                        </div>
+                        <div class="herodescription">
+                            I am a MERN Stack developer and here is my portfolio website.Here you'll
+                            learn about my journey as a web developer.
+                        </div>
+                        <a href="#contactme" class="button" id="btn" data-aos="fade-up">Hire me</a>
+                        <div class="icon-container" data-aos="fade-up">
+                            <a class=" icon instagram" href="https://www.instagram.com/8328sanu/"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a class=" icon facebook" href="https://www.instagram.com/8328sanu/"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a class=" icon linkedin" href="https://www.linkedin.com/in/santosh-pal-7b7b95253/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a class=" icon whatsapp" href="https://wa.me/917317208534"><i
+                                    class="fa-brands fa-whatsapp"></i></a>
+                            <a class=" icon github" href="https://github.com/Santosh130602"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="heroright" data-aos="fade-up">
+
+                        <div class="user-image">
+                            <img src="./image/Santosh02.png" alt="" loading="lazy">
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+
+
+            </section>
+        </div>
+    </div>
+
+
+
+    <script src="particles.min.js"></script>
+
+
+    <script src="index.js"></script>
+
+    <!-- <script src="../assets/vendor/animateNumber/jquery.animateNumber.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "MERN Stack Developer",
+                "FARM Stack Developer",
+                // "Frontend Developer",
+                "Cloud Developer",
+                "ML Engineers"
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+
+</html>
