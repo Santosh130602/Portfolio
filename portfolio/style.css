@@ -838,7 +838,7 @@ space-line-footer .foot {
   /* Adjust width as needed */
   height: 200px;
   /* Adjust height as needed */
-  background-image: url(./image/ONDC.webp);
+  background-image: url(/image/ONDC.webp);
   background-size: cover;
   /* Ensures the image covers the entire space */
   border-radius: 10px;
@@ -909,44 +909,44 @@ space-line-footer .foot {
 
 /*   Project photos */
 .project1 {
-  background-image: url(./image/krishi_Doot.png);
+  background-image: url(/image/krishi_Doot.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.project5 {
-  background-image: url(./image/tejas-threads.png);
+/* .project5 {
+  background-image: url(/image/tejas-threads.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
+} */
 
-.project6 {
-  background-image: url(./image/car-showcase.png);
+/* .project6 {
+  background-image: url(/image/car-showcase.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
+} */
 
 .project2 {
-  background-image: url(./image/ONDC.webp);
+  background-image: url(/image/ONDC.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .project3 {
-  background-image: url(./image/study_notation.jpeg);
+  background-image: url(/image/study_notation.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.project4 {
-  background-image: url(./image/password.png);
+/* .project4 {
+  background-image: url(/image/password.png);
   background-size: cover;
 
   background-repeat: no-repeat;
-}
+} */
 
 .project-card::after {
   content: "";
