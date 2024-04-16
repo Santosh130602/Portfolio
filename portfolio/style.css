@@ -915,20 +915,6 @@ space-line-footer .foot {
   background-repeat: no-repeat;
 }
 
-/* .project5 {
-  background-image: url(/image/tejas-threads.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-} */
-
-/* .project6 {
-  background-image: url(/image/car-showcase.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-} */
-
 .project2 {
   background-image: url(/image/ONDC.webp);
   background-size: cover;
@@ -941,12 +927,6 @@ space-line-footer .foot {
   background-repeat: no-repeat;
 }
 
-/* .project4 {
-  background-image: url(/image/password.png);
-  background-size: cover;
-
-  background-repeat: no-repeat;
-} */
 
 .project-card::after {
   content: "";
