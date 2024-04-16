@@ -838,7 +838,7 @@ space-line-footer .foot {
   /* Adjust width as needed */
   height: 200px;
   /* Adjust height as needed */
-  background-image: url(/image/ONDC.webp);
+  background-image: url(./ONDC.webp);
   background-size: cover;
   /* Ensures the image covers the entire space */
   border-radius: 10px;
@@ -909,20 +909,20 @@ space-line-footer .foot {
 
 /*   Project photos */
 .project1 {
-  background-image: url(/image/krishi_Doot.png);
+  background-image: url(./krishi_Doot.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .project2 {
-  background-image: url(/image/ONDC.webp);
+  background-image: url(./ONDC.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .project3 {
-  background-image: url(/image/study_notation.jpeg);
+  background-image: url(./study_notation.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
