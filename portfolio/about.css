@@ -1,0 +1,97 @@
+/* Common styles */
+.about-section {
+    background-color: black;
+    padding: 4rem 0;
+    margin-top: 4rem;
+  }
+  
+  .about-caption,
+  .about-section h1 {
+    text-align: left;
+    color: white;
+  }
+  
+  .about-section h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.6;
+    padding: 0 10%;
+  }
+  
+  .space-line {
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+  }
+  
+  .about-main {
+    display: flex;
+    margin: 0 10%;
+  }
+  
+  .about-main-left {
+    width: 50%;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .about-main-right {
+    width: 50%;
+  }
+  
+  .about-main-right img {
+    width: 100%;
+  }
+  
+  .help-you-section {
+    display: flex;
+    margin: 0 10%;
+  }
+  
+  .skills {
+    flex: 1;
+    color: white;
+  }
+  
+  .skills p,
+  .skills h2 {
+    margin: 20px 0;
+    line-height: 1.6;
+  }
+  
+  /* Media queries */
+  @media (max-width: 1000px) {
+    .about-section h1 {
+      font-size: 3rem;
+      padding: 0 5%;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .about-main {
+      flex-direction: column;
+      margin: 0 5%;
+    }
+  
+    .about-main-left,
+    .about-main-right {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .about-caption {
+      font-size: 1rem;
+    }
+  
+    .help-you h1 {
+      font-size: 10px;
+    }
+  }
+  
+  @media (max-width: 350px) {
+    .emailtitle {
+      font-size: 0.5rem;
+    }
+  }
+  
